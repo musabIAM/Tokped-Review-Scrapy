@@ -78,8 +78,6 @@ tokped/
 │ ├── spiders/    
 │ │ └── tokped_review.py    
 
-> **Note:** How to find SHOP_ID.
- 
 **8. Start scrapy crawl and save to JSON**
 ```bash
 scrapy crawl tokped_review -O reviews.json
