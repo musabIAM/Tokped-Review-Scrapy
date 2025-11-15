@@ -5,8 +5,12 @@
 
 # 📘 Tokopedia Review Scraper using Scrapy
 
-This project uses **Scrapy** to send **direct POST requests** to a backend API and extract JSON data.  
-No HTML parsing or UI crawling — this scraper communicates directly with the website's internal API for maximum speed and accuracy.
+- This project retrieved **Merchant Reviews**, not individual products.  
+- Used **Scrapy** to send **direct POST requests** to a backend API and extract JSON data.  
+- No HTML parsing or UI crawling, this scraper communicates directly with the website API for maximum speed and accuracy.
+
+> **Note:** This project is for educational purposes only.  
+> Please follow the website’s Terms of Service and local laws when scraping data.
 
 ---
 
@@ -25,10 +29,19 @@ This method is ideal for:
 - Fast and stable data extraction
 - Avoiding complex HTML parsing
 
+> **Note:** The website API does not provide all the reviews through its public endpoints, limited to **10,000** reviews
+
+
 ---
 
 ## 🧰 Installation
 
 ```bash
 pip install scrapy
+```
+
+---
+
+## ▶️ How to Use
+
 
